@@ -1,0 +1,22 @@
+Alinhamento com imagens
+
+Alinhar imagem com o texto</h1>
+
+
+Alinhamento vertical: bottom
+
+O texto está alinhado com a parte de baixo da imagem.
+
+Alinhamento vertical: middle
+O texto está alinhado no meio do texto.
+
+Alinhamento vertical: top
+O texto está alinhado com a parte de cima da imagem.
+
+float: right
+A imagem está à direita do texto.
+
+float: left
+A imagem está à esquerdado texto.
+  
+Copyright&copy; - Todos os direitos reservados.

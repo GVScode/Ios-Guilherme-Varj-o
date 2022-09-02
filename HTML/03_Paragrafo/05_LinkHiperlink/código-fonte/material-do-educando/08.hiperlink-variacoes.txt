@@ -1,0 +1,18 @@
+Hiperlinks em imagens
+
+Exemplo de variações do atributo ref
+
+Exemplo de link de uma página web externa: Google.
+
+
+Exemplo de link de uma página HTML no seu computador:
+Exemplo Link 01
+Exemplo Link 02
+
+Exemplo de e-mail:
+ E-mail
+
+Exemplo de telefone:
+(11) 2503-2617
+
+Copyright&copy; - Todos os direitos reservados.

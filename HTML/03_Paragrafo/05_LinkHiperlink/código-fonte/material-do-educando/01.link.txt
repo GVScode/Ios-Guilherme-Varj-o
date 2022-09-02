@@ -1,0 +1,9 @@
+Elemento link
+
+Bem-Vindo ao uso do HTML
+
+Nesse exemplo mostraremos como vincular um arquivo externo ao seu documento HTML.
+
+Teste de parágrafo.
+
+Copyright&copy; - Todos os direitos reservados.
