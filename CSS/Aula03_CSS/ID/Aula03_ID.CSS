@@ -1,0 +1,17 @@
+#primeiro_nome{
+    background-color: brown;
+    text-align: center;
+
+}
+
+#segundo_Nome {
+    background-color: blue;
+    color: black;
+    text-align: center;
+
+}
+article h4 {
+    text-align: center;
+    border: 2px solid black;
+    font-size: 26px;
+}

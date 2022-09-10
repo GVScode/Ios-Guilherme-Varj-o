@@ -1,0 +1,13 @@
+.contemA {
+    color: blueviolet;
+}
+
+section{
+    background-color: brown;
+}
+
+h1{color: blue; background-color:brown ; border: 2px solid black;}
+
+.diferente {
+    color: grey ; background-color: beige; border: 2px solid black ;border-color: greenyellow;
+}
