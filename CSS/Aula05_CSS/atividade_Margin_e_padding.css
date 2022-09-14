@@ -1,0 +1,86 @@
+
+
+
+body {
+ background-color: #080808;
+ color: #8d7272;
+ font: normal 16px Arial, Helvetica, sans-serif;
+ line-height: 40px;
+ margin: 0;
+}
+a {
+    margin: 10px;
+    text-decoration:none;
+    color: white;
+    padding: 5px;
+    border: solid royalblue 5px;
+   }
+   .btn {
+    background-color: rgb(247, 240, 240);
+    color: rgb(8, 8, 8);
+    padding: 10px 15px;
+    border: 10px;
+    line-height: 15px;
+   }
+   .container {
+    width: 70%;
+    margin: 20px 30px;
+   }
+   .divisao1{
+    background-color: #333;
+    color: #fff;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    padding: 10px 15px;
+    margin: 5px 10px 15px 20px;
+    
+   }
+
+   .divisao2{
+    background-color: #333;
+    color: #fff;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    padding: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px ;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+
+   }
+   .divisao3{
+    background-color: #333;
+    color: #fff;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    padding: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px ;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    
+   }
