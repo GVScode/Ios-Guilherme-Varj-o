@@ -1,0 +1,19 @@
+body{
+    background-color: #d1c8a3;
+    font-size: 25px;
+}
+ #cor {
+    background-color: #c6ad71;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #acba9d;
+ }
+
+ h3{
+    color: rgb(23, 0, 225);
+ }
+ h4{
+    color: rebeccapurple
+ }
+ h2{
+    color: red;
+ }
