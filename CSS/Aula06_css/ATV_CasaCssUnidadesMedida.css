@@ -1,0 +1,59 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #926239;
+    line-height: 15px;
+}
+
+.noticia01{
+    background-color: #fff;
+    color: black;
+    
+}
+
+#showcase {
+    
+    background-image: url('Queen_Elizabeth_II_in_March_2015.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20 20px;
+    
+}
+#showcase h1 {
+    font-size: 50px;
+    line-height: 100px;
+    color: black;
+    background-color: #926239;
+    border: 20px, black;
+   }
+
+   #showcase p {
+    font-size: 20px;
+    margin-bottom: 20px;
+   }
+
+   #showcase .btn {
+    font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border: #926239 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+   }
+   
+   #section-a {
+    padding: 20px;
+    background: #926239;
+    color: #fff;
+    text-align: center;
