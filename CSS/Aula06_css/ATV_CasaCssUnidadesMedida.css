@@ -34,12 +34,12 @@ body {
     line-height: 100px;
     color: black;
     background-color: #926239;
-    border: 20px, black;
+    border: 10px, black;
    }
 
    #showcase p {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;color: black;
    }
 
    #showcase .btn {
@@ -57,3 +57,7 @@ body {
     background: #926239;
     color: #fff;
     text-align: center;
+<<<<<<< HEAD
+=======
+   }
+>>>>>>> a403aceca4d6af4b646f1a0472fb21a61ec95101
