@@ -9,7 +9,7 @@ body {
     margin: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 17px;
-    color: #926239;
+    color: #fffefe;
     line-height: 15px;
 }
 
@@ -31,15 +31,36 @@ body {
 }
 #showcase h1 {
     font-size: 50px;
-    line-height: 100px;
-    color: black;
-    background-color: #926239;
-    border: 10px, black;
+    line-height: 80px;
+    color: rgb(255, 255, 255);
+    background-color: #050505;
+    border: 10px;
+    border-color: #fff;
+    border-bottom: 30px ,white;
+    border-top: 30px,white;
+    
    }
+
+   h1{
+    border: white;
+    border-color: #fff;
+    border: 2px;
+   }
+
+p{
+    background-color: #bfa187;
+    border: 2px solid black;
+    padding: 30px;
+    line-height: 15px;
+}
 
    #showcase p {
     font-size: 20px;
     margin-bottom: 20px;color: black;
+    background-color: burlywood;
+    text-align: center;
+    border: #926239;
+    line-height: 15px;
    }
 
    #showcase .btn {
