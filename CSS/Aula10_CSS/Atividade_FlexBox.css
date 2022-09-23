@@ -5,13 +5,13 @@ body{
 .container div {
     border: 15px rgb(92, 62, 62) solid;
     padding: 30px;
-    justify-content:flex-end;
-    align-items:flex-start
+    
 }
 .container {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    
 }
 .casa1 {
     flex: 4;
@@ -25,15 +25,15 @@ body{
     background-color: antiquewhite;
     color: black;
     display: flex;
-    align-items: center;
+    
 }
 .casa3 {
     flex: 6;
     order: 4;
     background-color: greenyellow;
     color: black;
-    display: flex;
-    align-items: stretch;
+    
+    
 }
 
 .casa4 {
@@ -43,4 +43,5 @@ body{
     color: black;
     display: flex;
     align-self: center;
+    
 }
