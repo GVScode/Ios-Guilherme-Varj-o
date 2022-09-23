@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h2{
+    text-align: center;
+    background-color: rgb(107, 89, 67);
+    color: black;
+    margin: 5px;
+    padding: 10px;
+}
+body{
+    background-color: bisque;
+    font-size: 25px;
+}
+.primeira{
+    padding: 10px;
+    margin: 10;
+    width: 50%;
+    float: left;
+}
+.lista{
+    background: #fff;
+    color: #555;
+    list-style-type: none;
+    border: 1px solid #555;
+    margin: 0;
+    padding: 0;
+
+}
+@media(max-width:768px) {
+    .med {
+    width: 100%;
+    }
+
+}
+.segunda{
+    padding: 10px;
+    margin: 10;
+    width: 25%;
+    float: left;
+
+}

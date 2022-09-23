@@ -1,0 +1,47 @@
+@charset "utf-8";
+body{
+    background-color: bisque;
+}
+.container div {
+    border: 15px rgb(92, 62, 62) solid;
+    padding: 30px;
+    
+}
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.casa1 {
+    flex: 4;
+    order: 2;
+    background-color: aqua;
+    color: black;
+}
+.casa2 {
+    flex: 3;
+    order: 1;
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    
+}
+.casa3 {
+    flex: 6;
+    order: 4;
+    background-color: greenyellow;
+    color: black;
+    
+    
+}
+
+.casa4 {
+    flex: 4;
+    order: 3;
+    background-color: bisque;
+    color: black;
+    display: flex;
+    align-self: center;
+    
+}
