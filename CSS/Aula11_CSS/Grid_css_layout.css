@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "area01 area01 area01 area01 area01"
+    "area02 area02 . . . "
+    " area03 area05 . . ."
+    "area04 area04 area04 area04 area04 "
+     ;
+}
+.item-1{
+    grid-area:area01;
+    border: 1px solid palegreen;
+}
+.item-2{
+    grid-area: area02;
+    border: 1px solid rgb(151, 86, 182);
+}
+.item-3{
+    grid-area: area03;
+    border: 1px solid rgb(136, 7, 13);
+}
+.item-4{
+    grid-area: area04;
+    border: 1px solid rgb(234, 250, 10);
+}
+.item-5{
+    grid-area: area05;
+    border: 1px solid rgb(74, 1, 243);
+}
+
+
+
