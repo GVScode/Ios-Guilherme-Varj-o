@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        text-align: center;
+        border: solid black 2px;
+        border-radius: 5px;
+        width: 30%;
+        margin-left: 35%;
+        background-color: rgba(0,0,0,0.5);
+    }
+    h4{
+        text-align: left;
+        margin-left: 40px;
+    }
+</style>
+<body>
+    <div>
+        <h1>Calculadora do Guilherme Varjão Santos (Newtab Academy) </h1>
+
+        Primeiro Número<br />
+        <input id="n1" type="number" /><br />
+        Segundo Número<br />
+        <input id="n2" type="number" /><br /><br />
+        <button onclick="somar()">somar</button>
+        <br /><br />
+
+
+        <h4> O Resultado é: <span></span></h4>
+    </div>
+
+ 
+</body>
+<script>
+    var n1 = document.querySelector('#n1')
+    var n2 = document.querySelector('#n2')
+    var resultado = document.querySelector('span')
+    function somar() {
+    if (n1.value > 0 && n2.value>0){
+        resultado.innerHTML = parseInt(n1.value) + parseInt(n2.value)
+    }
+    else if (n1.value <0 && n2.value>0 ){
+        resultado.innerText = "Os numeros não podem ser negativos"
+    }
+    else if (n1.value < 0 && n2.value<0){
+        resultado.innerText = "Os numeros não podem ser negativos"
+    }
+    else if (n1.value == 0 && n2.value == 0){
+        resultado.innerText = "Preencha os espaços com números positivos"
+    }
+    else if (n1.value =="" && n2.value==""){
+        resultado.innerText = "Preencha os campos"
+    }
+    else if (n1.value ==0 && n1.value >0 || n2.value>0 ){
+        resultado.innerHTML = parseInt(n1.value) + parseInt(n2.value)
+    }
+    else if (n2.value==0 && n1.value >0 || n2.value>0 ){
+        resultado.innerHTML = parseInt(n1.value) + parseInt(n2.value)
+    }
+    else if (n1.value ==0 && n1.value <0 || n2.value<0 ){
+        resultado.innerText = "Os numeros não podem ser negativos"
+    }
+    else if (n2.value==0 && n1.value <0 || n2.value<0 ){
+        resultado.innerText = "Os numeros não podem ser negativos"
+    }    
+        
+}
+    
+    
+    
+        
+    
+
+</script>    
+</html>
