@@ -2,6 +2,8 @@
     margin: 0 auto;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    color: black;
+    
 }
 
 html{
@@ -24,6 +26,9 @@ header{
     height: 50vh;
     margin-top: 600px;
     margin-left: 100px;
+    margin-right: 610px;
+    border: 5px black solid;
+    background-color:burlywood;
 }
 
 header h1{
@@ -38,22 +43,48 @@ header p{
     margin-right: 200%;
     line-height: 40px;
     font-weight: bold;
+    
 }
 
+
+
 .btn{
-    color: #f2f2f2;
+    background-color: black;
+    color: white;
     font-size: 1.5em;
     text-decoration: none;
     padding: 10px 20px;
-    border: #f2f2f2 solid 2px;
+    border: #a61b1b solid 2px;
     border-radius: 20px;
     transition: ease-in 0.3s;
+    margin: 20 20;
+    line-height: 2px;
+    align-items: center;
 }
 
 .btn:hover{
     color: #464646;
     border: #464646 solid 2px;
 }
+.btn1{
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: #a61b1b solid 2px;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+    margin: 20 20;
+    line-height: 2px;
+    align-items: center;
+}
+
+.btn1:hover{
+    color: #464646;
+    border: #464646 solid 2px;
+}
+
 
 #section-1{
     font-size: 18px;
@@ -68,6 +99,11 @@ header p{
 #section-1 h2{
     font-size: 2em;
     margin-bottom: 50px;
+    line-height: 300px;
+    margin-right: 500px;
+    margin-left: 100px;
+    color:brown;
+    
 }
 
 #section-1 p{
@@ -75,6 +111,11 @@ header p{
     width: 800px;
     margin-right: 100%;
     margin-bottom: 50px;
+    margin-right: 00px;
+    border: 5px black solid;
+    background-color:burlywood;
+    margin-left: 1px;
+    
 }
 
 #article-1{
@@ -86,6 +127,7 @@ header p{
 #article-1 h2{
     font-size: 2em;
     margin-bottom: 3cm;
+    color: #a61b1b;
 }
 
 #article-1 p{
@@ -95,6 +137,9 @@ header p{
     margin-bottom: 100px;
     line-height: 40px;
     font-weight: bold;
+    border: 5px black solid;
+    background-color:burlywood;
+    margin-left: 1px;
 }
 
 #article-1 img{
@@ -103,3 +148,5 @@ header p{
 img{
     width: 50%;
     height: 50%;
+    
+    ;
