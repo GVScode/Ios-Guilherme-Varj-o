@@ -8,7 +8,7 @@
 body {
     font-size: 1.3em;
     font-family: 'oswald', sans-serif;
-    background-color: rgb(179, 157, 131);
+    background-color: rgb(191, 186, 196);
 }
 a {
     color: chocolate;
@@ -78,4 +78,11 @@ img{
 }
 .btn:hover{
     opacity: 0.8;
+}
+footer{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    margin: 5px;
+    border:5px solid;
 }
