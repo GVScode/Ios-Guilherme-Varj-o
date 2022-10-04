@@ -1,12 +1,16 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(45deg, white, blue);
-}
+    background-image: linear-gradient(100deg, white, blue);
+    
+
+
+   
+    }
 form{
     background-color: rgba(0, 0, 0, 0.9);
-    position: absolute;
+    position:absolute;
     top: 50%;
-    left: 20%;
+    left: 50%;
     transform: translate(-50%,-50%);
     padding: 80px;
     border-radius: 15px;
