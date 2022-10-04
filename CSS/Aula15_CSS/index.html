@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pe-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="" />
+        <title>Bootstrap</title>
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <section class="container">
+            <!-- Formulários -->
+            <form action="#">
+                <label class="form-label">Nome Completo</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Adicione o Nome"
+                />
+                <label class="form-label">Profissão</label>
+                <input
+                    type="text"
+                    class="form-control form-control-sm"
+                    placeholder="Adicione o Nome"
+                />
+                <label class="form-label">E-mail</label>
+                <input
+                    type="email"
+                    class="form-control form-control-lg"
+                    placeholder="Adicione o Email"
+                />
+                <label>Mensagem</label>
+                <textarea
+                    class="form-control"
+                    placeholder="Adicione uma Mensagem"
+                ></textarea>
+                <br />
+                <hr />
+                <label>Formação</label>
+                <select name="" id="" class="form-control">
+                    <option value="fundamental">Ensino fundamental</option>
+                    <option value="medio">Ensino médio</option>
+                    <option value="superior">Ensino superior</option>
+                    <option value="superior">Outro</option>
+                </select>
+                <br />
+                <hr />
+                <label for="exampleDataList" class="form-label">Cidade</label>
+                <input
+                    class="formcontrol"
+                    list="datalistOptions"
+                    id="exampleDataList"
+                    placeholder="Digite uma cidade..."
+                />
+                <datalist id="datalistOptions">
+                    <option value="Belo Horizonte"></option>
+                    <option value="São Paulo"></option>
+                    <option value="Santos"></option>
+                    <option value="Porto Alegre"></option>
+                    <option value="Recife"></option>
+                    <option value="Outra"></option>
+                </datalist>
+                <br />
+                <hr />
+                <label class="form-label">Enviar Arquivo</label>
+                <input type="file" />
+                <br />
+                <span class="form-text"> Apenas arquivos png e jpg. </span>
+                <br />
+                <hr />
+
+                <label for="exampleColorInput" class="form-label"
+                    >Seletor de Cores</label
+                >
+                <input
+                    type="color"
+                    class="form-control form-control-color"
+                    id="exampleColorInput"
+                    value="#021BFC"
+                    title="Escolha a sua Cor"
+                />
+                <br />
+                <hr />
+
+                <button type="submit" class="btn-outline-secondary btn-lg">
+                    Enviar
+                </button>
+                <br />
+                <hr />
+
+                <section class="container">
+                    <!-- Tabela Primeiro Exemplo -->
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Primeiro Nome</th>
+                                <th scope="col">Segundo Nome</th>
+                                <th scope="col">Idade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Jill</td>
+                                <td>Smith</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Eve</td>
+                                <td>Jackson</td>
+                                <td>24</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>34</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br />
+                    <hr />
+                </section>
+
+                <!-- Tabela Segundo Exemplo -->
+                <table class="table table-bordered table-hover table-sm">
+                    <caption>
+                        Tabela 01: Dinheiro guardado mensalmente
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Mês</th>
+                            <th scope="col">Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-primary">
+                            <td>Janeiro</td>
+                            <td>R$100,00</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>Fevereiro</td>
+                            <td>R$50,00</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <td>Março</td>
+                            <td>R$25,00</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Abril</td>
+                            <td>R$40,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+                <hr />
+            </form>
+        </section>
+
+        <!-- JavaScript Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
