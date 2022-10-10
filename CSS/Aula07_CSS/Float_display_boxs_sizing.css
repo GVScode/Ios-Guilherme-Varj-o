@@ -1,0 +1,67 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Geneva, Verdana, sans-serif;
+    background-color:bisque;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 4px 2px blue;
+}
+
+h3 {
+    text-align: center;
+    color: darkcyan;
+}
+
+.primeira-div {
+    border: 10px solid darkcyan;
+    border-radius: 20px;
+    margin: 30px 30px;
+    padding: 20px 30px;
+    background-color: #000;
+}
+
+.primeira-div h3 {
+    margin: 30px 5px;
+}
+
+.sala-right {
+    display: flex;
+    flex-direction: row-reverse;
+    color: #fff;
+}
+
+.sala-left {
+    display: flex;
+    color: #fff;
+}
+
+.sala-right figure {
+    margin: 10px;
+}
+
+.sala-left figure {
+    margin: 10px;
+}
+figcaption {
+    color: gold;
+}
