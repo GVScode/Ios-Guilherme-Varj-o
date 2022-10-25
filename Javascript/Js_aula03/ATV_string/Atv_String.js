@@ -1,6 +1,6 @@
-var string1 = "Estamos Aprendendo JavaScript e seremos fututos Devs";
+var frase = "Estamos aprendendo JavaScript e seremos futuros Devs";
 
-console.log(string1[19]);
-console.log(string1.charAt(10));
-console.log(string1.lastIndexOf(17));
-console.log(string1.length);
+console.log(frase.charAt(19));
+console.log(frase.length);
+console.log(frase.toUpperCase());
+console.log(frase.substring(48));;
