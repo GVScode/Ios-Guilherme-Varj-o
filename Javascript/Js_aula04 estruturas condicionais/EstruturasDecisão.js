@@ -19,9 +19,9 @@ if(tênis < camiseta && tênis < boné){
 let num1 = 1
 let num2 = 2
 let num3 = 3
-let maior = 4
-let meio = 5
-let menor = 6
+let maior = 1
+let meio = 2
+let menor = 3
 
 if(num1 > num2 && num1 > num3){
     maior = num1
