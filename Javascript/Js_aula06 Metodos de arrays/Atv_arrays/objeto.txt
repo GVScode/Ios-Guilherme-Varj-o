@@ -1,0 +1,1 @@
+Em Javascript, tudo o que possui estado e comportamento é conhecida como um objeto, por exemplo, cadeira, bicicleta, marcador, caneta, mesa, carro, etc. Pode ser física ou lógica
