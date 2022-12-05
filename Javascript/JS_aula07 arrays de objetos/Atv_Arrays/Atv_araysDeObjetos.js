@@ -1,47 +1,52 @@
-// Array de objetos
-const Alunos = [
+const alunos = [
     {
-        id: 1,
-        texto: 'Nota',
-        isCompleted: true,
+        Nome: "Guilherme",
+        Idade: "17 Anos",
+        Nota: [9, 6, 8, 7],
+        Endereço: {
+            Rua: 'Rua Macuxis',
+            Numero: 483,
+            Cidade: 'São Paulo',
+            Estado: 'SP',
+        },
+        Escola: "E.E.OTTO DE BARROS VIDAL",
+        Série: "3° do Ensino Médio",
+        Sala: "3",
+        Responsavel: "Jurema"
     },
     {
-        id: 2,
-        texto: 'Endereço',
-        isCompleted: true,
+        Nome: "Giovanna",
+        Idade: "15 Anos",
+        Nota: [5, 7, 6, 8],
+        Endereço: {
+            Rua: 'serra negra',
+            Numero: 294,
+            Cidade: 'São Paulo',
+            Estado: 'SP',
+        },
+        Escola: "Agenor Couto",
+        Série: "3° do Ensino Médio",
+        Sala: "7",
+        Responsavel: "Jair Francisco"
+
     },
     {
-        id: 3,
-        texto: 'aluno1',
-        isCompleted: false,
+        Nome: "Joselia Pereira",
+        Idade: "15 Anos",
+        Nota: [10, 7, 9, 6],
+        Endereço: {
+            Rua: 'Avenida Imirim',
+            Numero: 1000,
+            Cidade: 'São Paulo',
+            Estado: 'SP',
+        },
+        Escola: "Leme do Prado",
+        Série: "3° do Ensino Médio",
+        Sala: "10",
+        Responsavel: "Juliana"
+
     },
-    {
-        id: 4,
-        texto: 'Levar o lixo para fora',
-        isCompleted: true,
-    },
-    {
-        id: 5,
-        texto: 'Encontrar com o chefe',
-        isCompleted: true,
-    },
-    {
-        id: 6,
-        texto: 'Consulta no dentista',
-        isCompleted: false,
-    },
-    {
-        id: 7,
-        texto: 'Levar o lixo para fora',
-        isCompleted: true,
-    },
-    {
-        id: 8,
-        texto: 'Encontrar com o chefe',
-        isCompleted: true,
-    },
-   
 ];
-console.log(id);
-console.log(id[1].texto);
-console.log(id[2].id, alunos[2].texto, alunos[2].isCompleted);
+console.log(alunos);
+console.log(alunos[1].texto);
+console.log(alunos[2].Nome, alunos[2].Nota, alunos[2].Endereço);
