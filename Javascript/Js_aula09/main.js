@@ -1,4 +1,4 @@
-let numeros = [17, 43, 8, 4, 97, 56, 29, 30]
+let numeros = [16, 49, 6, 12, 57, 26, 89, 17]
 
 numeros.forEach((numero) => {
     if(numero % 2 == 0){
